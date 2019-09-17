@@ -316,15 +316,22 @@ nav a:hover {
   font-size: 1.18rem;
   color: rgba(0, 0, 0, 0.7);
   background-color: #a9a19e;
-  cursor: pointer;
+  position: relative;
 }
 
-.takeme-up p {
+.takeme-up a {
+  align-self: stretch;
+  text-align: center;
+  text-decoration: none;
   margin: 0;
-  padding: 0.5rem;
+  padding: 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
 }
 
 .takeme-up span {
+  z-index: 0;
+  position: absolute;
   width: 50px;
   height: 15px;
   top: 4px;
